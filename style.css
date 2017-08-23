@@ -2,7 +2,7 @@
 font-family: 'Encode Sans', sans-serif;
 font-family: 'Muli', sans-serif;*/
 body {
-  background-color: #e6ecf0;
+  background-color: #C03546;
   font-size: 15px;
   font-family: 'Muli', sans-serif;
   color: #444F5A;
@@ -10,7 +10,7 @@ body {
 }
 
 h1{
-  color: #324E7B;
+  color: #C03546;
   font-family: 'Baloo Bhaijaan', cursive;
   font-size: 28px;
   line-height: 85%;
@@ -39,7 +39,7 @@ p {
 }
 
 a {
-  color: #444F5A;
+  color: #C03546;
   text-decoration: none;
 }
 
@@ -75,11 +75,11 @@ a {
 
 
 .hover-link:hover{
-  color: blue;
+  color: red;
 }
 
 .btn-blue{
-  background-color: #3F72AF;
+  background-color: #C03546;
   color: white;
   font-size: 15px;
   margin: 50px;
@@ -89,7 +89,7 @@ a {
 }
 
 .btn-blue:hover{
-  background-color: #3F10AF;
+  background-color: red;
 }
 
 .list-inline > li {
@@ -128,7 +128,18 @@ hr.style7 {
   }
 }
 
-
+#sidebar {
+  position: flat;
+  width: 100px;
+  left: 100px;
+  top: 0;
+  bottom: 0;
+  padding: 10px;
+  background: #324E7B ;
+}
+#page-content {
+  margin-left: 300px;
+}
 
 
 
